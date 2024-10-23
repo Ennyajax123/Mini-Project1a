@@ -1,4 +1,5 @@
 variable "node_name" {}
+variable "node_name-1" {}
 variable "sg_name" {}
 variable "ami" {}
 variable "instance_type" {}
@@ -8,9 +9,3 @@ variable "dev-2-port-1" {}
 variable "dev-2-port-2" {}
 variable "dev-1-sg-name" {}
 variable "dev-2-sg-name" {}
-variable "prod-1-port-1" {}
-variable "prod-1-port-2" {}
-variable "prod-2-port-1" {}
-variable "prod-2-port-2" {}
-variable "prod-1-sg-name" {}
-variable "prod-2-sg-name" {}
